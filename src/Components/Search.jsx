@@ -23,6 +23,7 @@ export default function Search() {
 
   return (
     <header className='search-container'>
+      <h1>Foodspace</h1>
       <form onSubmit={handleSubmit}>
       <input type="text" placeholder='type favorite meal' className="form-input" value={text} onChange={handleChange}/>
       <button type='submit' className="btn">Search</button>
